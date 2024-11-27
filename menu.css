@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url(1.jpg);
+    color: rgb(0, 255, 102);
+    font-size: 18px;
+}
+
+header {
+    background: url(23.jpg);
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #9807ff;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255),
+                 0px 0px 20px rgb(255, 255, 255),
+                 0px 0px 40px rgb(255, 255, 255),
+                 0px 0px 80px rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.game {
+    background: rgb(20, 182, 68);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(196, 45, 143);
+    font-size: 20px;
+}
+
+.h-pi {
+    background: url(17.jpg);
+    color: rgb(81, 255, 0);
+    text-shadow: 0px 0px 10px rgb(255, 0, 0),
+                 0px 0px 20px rgb(255, 0, 0),
+                 0px 0px 40px rgb(255, 0, 0),
+                 0px 0px 80px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-pi {
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+.p-pi {
+    color: rgb(0, 0, 0);
+}
+
+.li-pi1 {
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+.li-pi2 {
+    color: rgb(14, 237, 14);
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+}
+
+.li-pi3 {
+    color: rgb(255, 217, 0);
+    background-color: rgb(255, 0, 0);
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff1717;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #24cf18;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(242, 255, 3);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(0, 87, 21);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
